@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64961C571B252979008A6A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64961C561B252979008A6A88 /* AppDelegate.swift */; };
+		64961C5B1B252979008A6A88 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64961C5A1B252979008A6A88 /* GameScene.swift */; };
+		64961C5D1B252979008A6A88 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64961C5C1B252979008A6A88 /* GameViewController.swift */; };
+		64961C601B252979008A6A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64961C5E1B252979008A6A88 /* Main.storyboard */; };
+		64961C621B252979008A6A88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64961C611B252979008A6A88 /* Images.xcassets */; };
+		64961C651B252979008A6A88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64961C631B252979008A6A88 /* LaunchScreen.xib */; };
+		64961C711B252979008A6A88 /* shroomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64961C701B252979008A6A88 /* shroomsTests.swift */; };
+		64961CAD1B27BF83008A6A88 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64961CAC1B27BF83008A6A88 /* Character.swift */; };
+		64961CAF1B2DB63E008A6A88 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64961CAE1B2DB63E008A6A88 /* Enemy.swift */; };
+		64961CB11B35929A008A6A88 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64961CB01B35929A008A6A88 /* Mushroom.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64961C6B1B252979008A6A88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64961C491B252978008A6A88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64961C501B252978008A6A88;
+			remoteInfo = shrooms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64961C511B252978008A6A88 /* shrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shrooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64961C551B252979008A6A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64961C561B252979008A6A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64961C5A1B252979008A6A88 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		64961C5C1B252979008A6A88 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		64961C5F1B252979008A6A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64961C611B252979008A6A88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64961C641B252979008A6A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		64961C6A1B252979008A6A88 /* shroomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shroomsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64961C6F1B252979008A6A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64961C701B252979008A6A88 /* shroomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shroomsTests.swift; sourceTree = "<group>"; };
+		64961CAC1B27BF83008A6A88 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		64961CAE1B2DB63E008A6A88 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		64961CB01B35929A008A6A88 /* Mushroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64961C4E1B252978008A6A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64961C671B252979008A6A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64961C481B252978008A6A88 = {
+			isa = PBXGroup;
+			children = (
+				64961C531B252978008A6A88 /* shrooms */,
+				64961C6D1B252979008A6A88 /* shroomsTests */,
+				64961C521B252978008A6A88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64961C521B252978008A6A88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64961C511B252978008A6A88 /* shrooms.app */,
+				64961C6A1B252979008A6A88 /* shroomsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64961C531B252978008A6A88 /* shrooms */ = {
+			isa = PBXGroup;
+			children = (
+				64961C561B252979008A6A88 /* AppDelegate.swift */,
+				64961C5A1B252979008A6A88 /* GameScene.swift */,
+				64961CB01B35929A008A6A88 /* Mushroom.swift */,
+				64961CAC1B27BF83008A6A88 /* Character.swift */,
+				64961CAE1B2DB63E008A6A88 /* Enemy.swift */,
+				64961C5C1B252979008A6A88 /* GameViewController.swift */,
+				64961C5E1B252979008A6A88 /* Main.storyboard */,
+				64961C611B252979008A6A88 /* Images.xcassets */,
+				64961C631B252979008A6A88 /* LaunchScreen.xib */,
+				64961C541B252978008A6A88 /* Supporting Files */,
+			);
+			path = shrooms;
+			sourceTree = "<group>";
+		};
+		64961C541B252978008A6A88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64961C551B252979008A6A88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64961C6D1B252979008A6A88 /* shroomsTests */ = {
+			isa = PBXGroup;
+			children = (
+				64961C701B252979008A6A88 /* shroomsTests.swift */,
+				64961C6E1B252979008A6A88 /* Supporting Files */,
+			);
+			path = shroomsTests;
+			sourceTree = "<group>";
+		};
+		64961C6E1B252979008A6A88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64961C6F1B252979008A6A88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64961C501B252978008A6A88 /* shrooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64961C741B252979008A6A88 /* Build configuration list for PBXNativeTarget "shrooms" */;
+			buildPhases = (
+				64961C4D1B252978008A6A88 /* Sources */,
+				64961C4E1B252978008A6A88 /* Frameworks */,
+				64961C4F1B252978008A6A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shrooms;
+			productName = shrooms;
+			productReference = 64961C511B252978008A6A88 /* shrooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64961C691B252979008A6A88 /* shroomsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64961C771B252979008A6A88 /* Build configuration list for PBXNativeTarget "shroomsTests" */;
+			buildPhases = (
+				64961C661B252979008A6A88 /* Sources */,
+				64961C671B252979008A6A88 /* Frameworks */,
+				64961C681B252979008A6A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64961C6C1B252979008A6A88 /* PBXTargetDependency */,
+			);
+			name = shroomsTests;
+			productName = shroomsTests;
+			productReference = 64961C6A1B252979008A6A88 /* shroomsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64961C491B252978008A6A88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kl;
+				TargetAttributes = {
+					64961C501B252978008A6A88 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					64961C691B252979008A6A88 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 64961C501B252978008A6A88;
+					};
+				};
+			};
+			buildConfigurationList = 64961C4C1B252978008A6A88 /* Build configuration list for PBXProject "shrooms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64961C481B252978008A6A88;
+			productRefGroup = 64961C521B252978008A6A88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64961C501B252978008A6A88 /* shrooms */,
+				64961C691B252979008A6A88 /* shroomsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64961C4F1B252978008A6A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64961C651B252979008A6A88 /* LaunchScreen.xib in Resources */,
+				64961C621B252979008A6A88 /* Images.xcassets in Resources */,
+				64961C601B252979008A6A88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64961C681B252979008A6A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64961C4D1B252978008A6A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64961CAD1B27BF83008A6A88 /* Character.swift in Sources */,
+				64961CAF1B2DB63E008A6A88 /* Enemy.swift in Sources */,
+				64961C5B1B252979008A6A88 /* GameScene.swift in Sources */,
+				64961C5D1B252979008A6A88 /* GameViewController.swift in Sources */,
+				64961C571B252979008A6A88 /* AppDelegate.swift in Sources */,
+				64961CB11B35929A008A6A88 /* Mushroom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64961C661B252979008A6A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64961C711B252979008A6A88 /* shroomsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64961C6C1B252979008A6A88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64961C501B252978008A6A88 /* shrooms */;
+			targetProxy = 64961C6B1B252979008A6A88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64961C5E1B252979008A6A88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64961C5F1B252979008A6A88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64961C631B252979008A6A88 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64961C641B252979008A6A88 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64961C721B252979008A6A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64961C731B252979008A6A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64961C751B252979008A6A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shrooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64961C761B252979008A6A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shrooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64961C781B252979008A6A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shroomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shrooms.app/shrooms";
+			};
+			name = Debug;
+		};
+		64961C791B252979008A6A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shroomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shrooms.app/shrooms";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64961C4C1B252978008A6A88 /* Build configuration list for PBXProject "shrooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64961C721B252979008A6A88 /* Debug */,
+				64961C731B252979008A6A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64961C741B252979008A6A88 /* Build configuration list for PBXNativeTarget "shrooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64961C751B252979008A6A88 /* Debug */,
+				64961C761B252979008A6A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64961C771B252979008A6A88 /* Build configuration list for PBXNativeTarget "shroomsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64961C781B252979008A6A88 /* Debug */,
+				64961C791B252979008A6A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64961C491B252978008A6A88 /* Project object */;
+}
