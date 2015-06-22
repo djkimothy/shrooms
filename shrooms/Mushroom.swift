@@ -34,4 +34,8 @@ class Mushroom: SKSpriteNode {
         hitPoints -= modifier
     }
     
+    func contact(body: SKPhysicsBody) {
+        
+    }
+    
 }

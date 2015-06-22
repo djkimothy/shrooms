@@ -97,9 +97,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     //Evaluate object contacts
     private func didBeginContact(contact: SKPhysicsContact) {
         
-        let firsttBody, secondBody: SKPhysicsBody
+        let firstBody, secondBody: SKPhysicsBody
         
-        if 
+        if contact.bodyA.categoryBitMask < contact.bodyB.categoryBitMask {
+            firstBody = contact.bodyA
+            secondBody = contact.bodyB
+        } else {
+            firstBody = contact.bodyB
+            secondBody = contact.bodyA
+        }
+        
+        
+        
     }
     
     private func createPlayer() {

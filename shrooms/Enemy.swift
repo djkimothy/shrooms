@@ -61,4 +61,8 @@ class Enemy: Character {
         
     }
     
+    func contact() {
+        
+    }
+    
 }
